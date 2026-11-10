@@ -1,1 +1,9 @@
-  02.py 03.py 04.py 05.py
+from string import ascii_lowercase
+
+n = input()
+m = 0
+a = []
+
+for i in n:
+  a.append(n.count(i))   
+  
